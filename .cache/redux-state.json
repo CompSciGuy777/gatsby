@@ -1,0 +1,1884 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/chris/chris-davis.tech/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/chris/chris-davis.tech/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "656077a73e3dfdc74673cf6a808164a8",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2cc62abc4434e8bc203d1008bc1eb388",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ae08df1dc48a15b3a71ddbe4c0bd91e2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "af2c1527ee96ffae5aa06620f08d0c67",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a0e60351e218f2a72bfb0b1cc012490f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e95809b7823377b335e4b1c6459a4419",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "586467ee227f72ba177ddfb7d09a3290",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.26",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "102e129c8052d886c28239adb6fb07ab",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/chris/chris-davis.tech/src/pages",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6aefe4db68c745309260e1a72f93814b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "21a5e50d7d66c033cc7c0fc977eb39cb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b27b7062d932495a6e04236de916de02",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f069b3328a335e5cb484e52485f59551",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3cb257eb72badb0632b339313f0d45ba",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-netlify": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-netlify",
+      "id": "Plugin gatsby-plugin-netlify",
+      "name": "gatsby-plugin-netlify",
+      "version": "1.0.21",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-netlify",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "1.0.21",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "http/2-server-push",
+          "netlify"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "af182c7832a35ededbefb0ee6681fe04",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/chris/chris-davis.tech",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "11f218a99038d7e79904b6246726cbb7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech",
+      "packageJson": {
+        "name": "chris-davis.tech",
+        "description": "Portfolio website",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Chris Davis <compsciguy777@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.6.4"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.277"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-netlify",
+            "version": "^1.0.21"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.26"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.67"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.39"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.44"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.4.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.13.7"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d9b644747e3ba173d271942b1600d0d3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/chris/chris-davis.tech/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/chris/chris-davis.tech/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4fc5af53a17f6180525433f24633b55b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Chris_Davis.tech"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-09-24T11:42:58.755Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "952c157732226ce4161440c2236f5d5d",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/chris/chris-davis.tech/src/pages absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c35a574fb05b9a0651d89faafdb00628",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-09-23T02:21:41.297Z",
+      "accessTime": "2018-09-24T11:43:11.392Z",
+      "changeTime": "2018-09-23T02:21:41.297Z",
+      "birthTime": "2018-08-15T03:51:40.881Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8614184477,
+      "blocks": 0,
+      "atimeMs": 1537789391391.565,
+      "mtimeMs": 1537669301296.999,
+      "ctimeMs": 1537669301296.999,
+      "birthtimeMs": 1534305100880.7605,
+      "atime": "2018-09-24T11:43:11.392Z",
+      "mtime": "2018-09-23T02:21:41.297Z",
+      "ctime": "2018-09-23T02:21:41.297Z",
+      "birthtime": "2018-08-15T03:51:40.881Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/index.js absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8edffce7f0db59414c11b2b9934c90cb",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 283,
+      "prettySize": "283 B",
+      "modifiedTime": "2018-09-23T00:40:22.562Z",
+      "accessTime": "2018-09-23T00:40:22.567Z",
+      "changeTime": "2018-09-23T00:40:22.562Z",
+      "birthTime": "2018-08-15T03:51:40.881Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8614184479,
+      "blocks": 8,
+      "atimeMs": 1537663222566.7766,
+      "mtimeMs": 1537663222561.7144,
+      "ctimeMs": 1537663222561.7144,
+      "birthtimeMs": 1534305100881.3574,
+      "atime": "2018-09-23T00:40:22.567Z",
+      "mtime": "2018-09-23T00:40:22.562Z",
+      "ctime": "2018-09-23T00:40:22.562Z",
+      "birthtime": "2018-08-15T03:51:40.881Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/404.js absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/404.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8d50d9a7e3f04ddcc5ff8d43b6effe79",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 198,
+      "prettySize": "198 B",
+      "modifiedTime": "2018-08-15T03:51:40.881Z",
+      "accessTime": "2018-09-08T23:44:05.549Z",
+      "changeTime": "2018-08-15T03:51:40.881Z",
+      "birthTime": "2018-08-15T03:51:40.881Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8614184478,
+      "blocks": 8,
+      "atimeMs": 1536450245549.3472,
+      "mtimeMs": 1534305100880.8782,
+      "ctimeMs": 1534305100880.8782,
+      "birthtimeMs": 1534305100880.8203,
+      "atime": "2018-09-08T23:44:05.549Z",
+      "mtime": "2018-08-15T03:51:40.881Z",
+      "ctime": "2018-08-15T03:51:40.881Z",
+      "birthtime": "2018-08-15T03:51:40.881Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/page-3.js absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/page-3.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5755523ea3d0d7b9015d0ab511605eda",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/page-3.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages/page-3.js",
+      "relativePath": "page-3.js",
+      "extension": "js",
+      "size": 292,
+      "prettySize": "292 B",
+      "modifiedTime": "2018-08-16T02:15:19.759Z",
+      "accessTime": "2018-09-08T23:44:05.549Z",
+      "changeTime": "2018-08-16T02:15:19.759Z",
+      "birthTime": "2018-08-16T02:01:24.841Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src/pages",
+      "base": "page-3.js",
+      "ext": ".js",
+      "name": "page-3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8614376077,
+      "blocks": 8,
+      "atimeMs": 1536450245549.389,
+      "mtimeMs": 1534385719758.5825,
+      "ctimeMs": 1534385719758.5825,
+      "birthtimeMs": 1534384884841.4563,
+      "atime": "2018-09-08T23:44:05.549Z",
+      "mtime": "2018-08-16T02:15:19.759Z",
+      "ctime": "2018-08-16T02:15:19.759Z",
+      "birthtime": "2018-08-16T02:01:24.841Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/.DS_Store absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "50558f5859a9b17cf587264f103c1828",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "description": "File \"src/pages/.DS_Store\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-08-17T02:53:11.609Z",
+      "accessTime": "2018-08-17T02:53:11.609Z",
+      "changeTime": "2018-08-17T02:53:11.609Z",
+      "birthTime": "2018-08-17T02:53:11.608Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src/pages",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8614416466,
+      "blocks": 16,
+      "atimeMs": 1534474391608.7515,
+      "mtimeMs": 1534474391608.6396,
+      "ctimeMs": 1534474391608.6396,
+      "birthtimeMs": 1534474391608.0916,
+      "atime": "2018-08-17T02:53:11.609Z",
+      "mtime": "2018-08-17T02:53:11.609Z",
+      "ctime": "2018-08-17T02:53:11.609Z",
+      "birthtime": "2018-08-17T02:53:11.608Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/about.js absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/about.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages/about.js",
+      "relativePath": "about.js",
+      "extension": "js",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-09-23T01:53:54.475Z",
+      "accessTime": "2018-09-23T01:53:55.087Z",
+      "changeTime": "2018-09-23T01:53:54.475Z",
+      "birthTime": "2018-09-23T01:53:54.475Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8616457375,
+      "blocks": 0,
+      "atimeMs": 1537667635086.7,
+      "mtimeMs": 1537667634474.8965,
+      "ctimeMs": 1537667634474.8965,
+      "birthtimeMs": 1537667634474.8965,
+      "atime": "2018-09-23T01:53:55.087Z",
+      "mtime": "2018-09-23T01:53:54.475Z",
+      "ctime": "2018-09-23T01:53:54.475Z",
+      "birthtime": "2018-09-23T01:53:54.475Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/blogs.js absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/blogs.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aa65c2d232506675b40ed0e516bbcf88",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/blogs.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages/blogs.js",
+      "relativePath": "blogs.js",
+      "extension": "js",
+      "size": 270,
+      "prettySize": "270 B",
+      "modifiedTime": "2018-09-23T03:45:39.382Z",
+      "accessTime": "2018-09-23T03:45:39.387Z",
+      "changeTime": "2018-09-23T03:45:39.382Z",
+      "birthTime": "2018-08-15T03:51:40.882Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src/pages",
+      "base": "blogs.js",
+      "ext": ".js",
+      "name": "blogs",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8614184480,
+      "blocks": 8,
+      "atimeMs": 1537674339386.8574,
+      "mtimeMs": 1537674339382.3157,
+      "ctimeMs": 1537674339382.3157,
+      "birthtimeMs": 1534305100881.934,
+      "atime": "2018-09-23T03:45:39.387Z",
+      "mtime": "2018-09-23T03:45:39.382Z",
+      "ctime": "2018-09-23T03:45:39.382Z",
+      "birthtime": "2018-08-15T03:51:40.882Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9067412b7a9d8d9ba4c0c9bf966196d5",
+        "type": "Directory",
+        "description": "Directory \"src/pages/08-16-2018-File_Frustration\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration",
+      "relativePath": "08-16-2018-File_Frustration",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-08-16T03:09:24.781Z",
+      "accessTime": "2018-09-24T11:43:11.393Z",
+      "changeTime": "2018-09-23T02:21:27.493Z",
+      "birthTime": "2018-08-16T03:09:08.156Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src/pages",
+      "base": "08-16-2018-File_Frustration",
+      "ext": "",
+      "name": "08-16-2018-File_Frustration",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8614416426,
+      "blocks": 0,
+      "atimeMs": 1537789391393.481,
+      "mtimeMs": 1534388964781.3425,
+      "ctimeMs": 1537669287493.201,
+      "birthtimeMs": 1534388948156.4927,
+      "atime": "2018-09-24T11:43:11.393Z",
+      "mtime": "2018-08-16T03:09:24.781Z",
+      "ctime": "2018-09-23T02:21:27.493Z",
+      "birthtime": "2018-08-16T03:09:08.156Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md absPath of file",
+      "children": [
+        "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3fcdca40a936e8607b614ce7e3fb7c46",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/08-16-2018-File_Frustration/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md",
+      "relativePath": "08-16-2018-File_Frustration/index.md",
+      "extension": "md",
+      "size": 850,
+      "prettySize": "850 B",
+      "modifiedTime": "2018-09-22T18:16:53.603Z",
+      "accessTime": "2018-09-23T02:21:27.571Z",
+      "changeTime": "2018-09-22T18:16:53.603Z",
+      "birthTime": "2018-08-16T03:09:24.781Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "08-16-2018-File_Frustration",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8614416427,
+      "blocks": 8,
+      "atimeMs": 1537669287570.7183,
+      "mtimeMs": 1537640213603.4329,
+      "ctimeMs": 1537640213603.4329,
+      "birthtimeMs": 1534388964781.328,
+      "atime": "2018-09-23T02:21:27.571Z",
+      "mtime": "2018-09-22T18:16:53.603Z",
+      "ctime": "2018-09-22T18:16:53.603Z",
+      "birthtime": "2018-08-16T03:09:24.781Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/second-post'\ntitle: ' file frustration'\n---\n\nI first want to start this piece by saying that although this specific example is about the Apache and the mod_rewrite library that powers the .htaccess file.  This piece in no way reflects on the quality of the library.\n\nI was digging through the the files, I changed mod_rewwrite about 5 different times.  I was banging my head on the table trying to understand where the IP redirect was coming from.  According to the rules of mod_rewrite in the Apache docs, that should not be active. But it was still redirecting.  I preformed a hard refresh and even killed the DNS responder.\n\n> For those who don't know the hard refresh is a sub option below refresh in Google Chrome that is only accessable when the developer tools are open.\n\n>sudo killall -HUP mDNSResponder\n is the command I used to ",
+        "type": "MarkdownRemark",
+        "contentDigest": "af7f5c0247e8a671d1681a6b811de8a0",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": " file frustration",
+        "path": "/second-post",
+        "_PARENT": "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md absPath of file",
+        "parent": "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nI first want to start this piece by saying that although this specific example is about the Apache and the mod_rewrite library that powers the .htaccess file.  This piece in no way reflects on the quality of the library.\n\nI was digging through the the files, I changed mod_rewwrite about 5 different times.  I was banging my head on the table trying to understand where the IP redirect was coming from.  According to the rules of mod_rewrite in the Apache docs, that should not be active. But it was still redirecting.  I preformed a hard refresh and even killed the DNS responder.\n\n> For those who don't know the hard refresh is a sub option below refresh in Google Chrome that is only accessable when the developer tools are open.\n\n>sudo killall -HUP mDNSResponder\n is the command I used to ",
+      "fileAbsolutePath": "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f447e2c4560d671310e89be6327732b2",
+        "type": "Directory",
+        "description": "Directory \"src/pages/08-15-2018-Junior_Developer_Tales\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales",
+      "relativePath": "08-15-2018-Junior_Developer_Tales",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-08-16T03:09:24.781Z",
+      "accessTime": "2018-09-24T11:43:11.393Z",
+      "changeTime": "2018-09-23T02:21:41.297Z",
+      "birthTime": "2018-08-16T03:09:08.156Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src/pages",
+      "base": "08-15-2018-Junior_Developer_Tales",
+      "ext": "",
+      "name": "08-15-2018-Junior_Developer_Tales",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8614385897,
+      "blocks": 0,
+      "atimeMs": 1537789391393.4592,
+      "mtimeMs": 1534388964781.3425,
+      "ctimeMs": 1537669301296.9988,
+      "birthtimeMs": 1534388948156.4927,
+      "atime": "2018-09-24T11:43:11.393Z",
+      "mtime": "2018-08-16T03:09:24.781Z",
+      "ctime": "2018-09-23T02:21:41.297Z",
+      "birthtime": "2018-08-16T03:09:08.156Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md absPath of file": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md absPath of file",
+      "children": [
+        "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2b295877ae2daef0f30fcc08d3cd2bf6",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/08-15-2018-Junior_Developer_Tales/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md",
+      "relativePath": "08-15-2018-Junior_Developer_Tales/index.md",
+      "extension": "md",
+      "size": 2039,
+      "prettySize": "2.04 kB",
+      "modifiedTime": "2018-09-18T03:22:06.768Z",
+      "accessTime": "2018-09-23T02:21:22.790Z",
+      "changeTime": "2018-09-18T03:22:06.768Z",
+      "birthTime": "2018-08-16T03:09:24.781Z",
+      "root": "/",
+      "dir": "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "08-15-2018-Junior_Developer_Tales",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8614385910,
+      "blocks": 8,
+      "atimeMs": 1537669282790.0984,
+      "mtimeMs": 1537240926768.3254,
+      "ctimeMs": 1537240926768.3254,
+      "birthtimeMs": 1534388964781.328,
+      "atime": "2018-09-23T02:21:22.790Z",
+      "mtime": "2018-09-18T03:22:06.768Z",
+      "ctime": "2018-09-18T03:22:06.768Z",
+      "birthtime": "2018-08-16T03:09:24.781Z"
+    },
+    "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/first-post'\ntitle: 'Tales from a Junior Developer Vol. 1'\n---\n\nThis is my first post on this blog in a brand new series chronicling my adventures as a junior developer.  I am a self-taught and learned the basics while I was deployed in service of the US Army.  I began by using Code Academy, then moved onto other resources both online and offline.  Some of the websites I used in this process are:\n\n- [Code Academy](https://www.codeacademy.com)\n- [Github](https://www.github.com)\n- [Treehouse](https://www.teamtreehouse.com)\n- [Free Code Camp](https://www.freecodecamp.com)\n- [Level Up Tutorials](https://www.leveluptuts.com)\n- [Wes Bos](https://www.wesbos.com)\n \n\nIt was a long bumpy road to get here.  I battled a variety of internal and external influences.  We are all plagued with self-dought, either momentary or persistent and about a variety of things.  The only questions is are we going to be honest about what these. **Most people can teach themselves these skills**\n\nThe first thing you have to do is learn who and what to listen too.  Some people might be surprised and give you surprising reactions but if you are getting enjoyment out of it, and it doesn't hurt anybody, you should keep doing it(I want to specify I am talking about programming and nothing else).\n\nFor those that are naturally technically inclined be aware that coding is only a portion of my workload.  I am still answering phones, talking to clients, updating SSLs, moving websites between servers, troubleshooting email accounts, and a miriad of other maintenance tasks.  \nThere is also troubleshooting (debugging) the ghost in the machine.  There are a number of reasons why these might develop over time. Everything Breaks given enough time and space, websites are no different.  The internet is held together with the digital equvialent of ducktape and superglue.  \n\n>The real question is what do you want?\n\nIf I leave you with nothing else from this piece of my experience, ***You Can Do IT***\n\nUntil next time...\n\n>Your Junior Developer",
+        "type": "MarkdownRemark",
+        "contentDigest": "fb4a07b20d66358a2c3e71b6f6980e76",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Tales from a Junior Developer Vol. 1",
+        "path": "/first-post",
+        "_PARENT": "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md absPath of file",
+        "parent": "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is my first post on this blog in a brand new series chronicling my adventures as a junior developer.  I am a self-taught and learned the basics while I was deployed in service of the US Army.  I began by using Code Academy, then moved onto other resources both online and offline.  Some of the websites I used in this process are:\n\n- [Code Academy](https://www.codeacademy.com)\n- [Github](https://www.github.com)\n- [Treehouse](https://www.teamtreehouse.com)\n- [Free Code Camp](https://www.freecodecamp.com)\n- [Level Up Tutorials](https://www.leveluptuts.com)\n- [Wes Bos](https://www.wesbos.com)\n \n\nIt was a long bumpy road to get here.  I battled a variety of internal and external influences.  We are all plagued with self-dought, either momentary or persistent and about a variety of things.  The only questions is are we going to be honest about what these. **Most people can teach themselves these skills**\n\nThe first thing you have to do is learn who and what to listen too.  Some people might be surprised and give you surprising reactions but if you are getting enjoyment out of it, and it doesn't hurt anybody, you should keep doing it(I want to specify I am talking about programming and nothing else).\n\nFor those that are naturally technically inclined be aware that coding is only a portion of my workload.  I am still answering phones, talking to clients, updating SSLs, moving websites between servers, troubleshooting email accounts, and a miriad of other maintenance tasks.  \nThere is also troubleshooting (debugging) the ghost in the machine.  There are a number of reasons why these might develop over time. Everything Breaks given enough time and space, websites are no different.  The internet is held together with the digital equvialent of ducktape and superglue.  \n\n>The real question is what do you want?\n\nIf I leave you with nothing else from this piece of my experience, ***You Can Do IT***\n\nUntil next time...\n\n>Your Junior Developer",
+      "fileAbsolutePath": "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md"
+    },
+    "SitePage /second-post": {
+      "layout": "index",
+      "jsonName": "second-post.json",
+      "internalComponentName": "ComponentSecondPost",
+      "path": "/second-post",
+      "component": "/Users/chris/chris-davis.tech/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/chris/chris-davis.tech/src/templates/post.js",
+      "id": "SitePage /second-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "09082e997bea52e8510738460ea054f4",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /first-post": {
+      "layout": "index",
+      "jsonName": "first-post.json",
+      "internalComponentName": "ComponentFirstPost",
+      "path": "/first-post",
+      "component": "/Users/chris/chris-davis.tech/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/chris/chris-davis.tech/src/templates/post.js",
+      "id": "SitePage /first-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0d9ad149f574661c19c207285525c0da",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/chris/chris-davis.tech/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/chris/chris-davis.tech/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "46f88c408ecae8cfd2cc6548859857fd",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/chris/chris-davis.tech/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/chris/chris-davis.tech/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "eba1a51a5fcb6a601837ba9d01614aa0",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blogs/": {
+      "layout": "index",
+      "jsonName": "blogs.json",
+      "internalComponentName": "ComponentBlogs",
+      "path": "/blogs/",
+      "component": "/Users/chris/chris-davis.tech/src/pages/blogs.js",
+      "componentChunkName": "component---src-pages-blogs-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/chris/chris-davis.tech/src/pages/blogs.js",
+      "id": "SitePage /blogs/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1fa7a8205784792a4226680a5148de75",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/chris/chris-davis.tech/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/chris/chris-davis.tech/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "18abc4d4c7613fb32b13704c995fe8fc",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-3/": {
+      "layout": "index",
+      "jsonName": "page-3.json",
+      "internalComponentName": "ComponentPage3",
+      "path": "/page-3/",
+      "component": "/Users/chris/chris-davis.tech/src/pages/page-3.js",
+      "componentChunkName": "component---src-pages-page-3-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/chris/chris-davis.tech/src/pages/page-3.js",
+      "id": "SitePage /page-3/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1327a8e95f885580916404cf1c89ee32",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/chris/chris-davis.tech/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/chris/chris-davis.tech/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f56f829574957202fff185fe91a0e3d9",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "3d6f525c84789096d1d3950f972f4b09"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/Users/chris/chris-davis.tech/src/pages/08-16-2018-second/index.md absPath of file >>> MarkdownRemark": [
+        "/second-post"
+      ],
+      "/Users/chris/chris-davis.tech/src/pages/08-15-2018-firstblog/index.md absPath of file >>> MarkdownRemark": [
+        "/first-post"
+      ],
+      "Site": [
+        "LAYOUT___index"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
