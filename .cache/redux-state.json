@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/chris/chris-davis.tech/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/chris/chris-davis.tech/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "656077a73e3dfdc74673cf6a808164a8",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1140,16 +1130,14 @@
       "siteMetadata": {
         "title": "Chris_Davis.tech"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-24T11:42:58.755Z",
+      "buildTime": "2018-11-26T03:33:03.805Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "952c157732226ce4161440c2236f5d5d",
+        "contentDigest": "3a75342c737f0ade204aaa8e3f379620",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1159,7 +1147,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c35a574fb05b9a0651d89faafdb00628",
+        "contentDigest": "1c14fecce0bd5a77e071a51eac34a801",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1171,7 +1159,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-09-23T02:21:41.297Z",
-      "accessTime": "2018-09-24T11:43:11.392Z",
+      "accessTime": "2018-11-26T03:33:05.900Z",
       "changeTime": "2018-09-23T02:21:41.297Z",
       "birthTime": "2018-08-15T03:51:40.881Z",
       "root": "/",
@@ -1186,14 +1174,14 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 8614184477,
       "blocks": 0,
-      "atimeMs": 1537789391391.565,
+      "atimeMs": 1543203185899.5986,
       "mtimeMs": 1537669301296.999,
       "ctimeMs": 1537669301296.999,
       "birthtimeMs": 1534305100880.7605,
-      "atime": "2018-09-24T11:43:11.392Z",
+      "atime": "2018-11-26T03:33:05.900Z",
       "mtime": "2018-09-23T02:21:41.297Z",
       "ctime": "2018-09-23T02:21:41.297Z",
       "birthtime": "2018-08-15T03:51:40.881Z"
@@ -1203,7 +1191,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8edffce7f0db59414c11b2b9934c90cb",
+        "contentDigest": "da5ca0092ab223a480644418fa3d6766",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/index.js\"",
@@ -1213,11 +1201,11 @@
       "absolutePath": "/Users/chris/chris-davis.tech/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 283,
-      "prettySize": "283 B",
-      "modifiedTime": "2018-09-23T00:40:22.562Z",
-      "accessTime": "2018-09-23T00:40:22.567Z",
-      "changeTime": "2018-09-23T00:40:22.562Z",
+      "size": 285,
+      "prettySize": "285 B",
+      "modifiedTime": "2018-11-26T03:31:22.036Z",
+      "accessTime": "2018-11-26T03:31:22.040Z",
+      "changeTime": "2018-11-26T03:31:22.036Z",
       "birthTime": "2018-08-15T03:51:40.881Z",
       "root": "/",
       "dir": "/Users/chris/chris-davis.tech/src/pages",
@@ -1231,16 +1219,16 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 8614184479,
       "blocks": 8,
-      "atimeMs": 1537663222566.7766,
-      "mtimeMs": 1537663222561.7144,
-      "ctimeMs": 1537663222561.7144,
+      "atimeMs": 1543203082040.4634,
+      "mtimeMs": 1543203082036.4004,
+      "ctimeMs": 1543203082036.4004,
       "birthtimeMs": 1534305100881.3574,
-      "atime": "2018-09-23T00:40:22.567Z",
-      "mtime": "2018-09-23T00:40:22.562Z",
-      "ctime": "2018-09-23T00:40:22.562Z",
+      "atime": "2018-11-26T03:31:22.040Z",
+      "mtime": "2018-11-26T03:31:22.036Z",
+      "ctime": "2018-11-26T03:31:22.036Z",
       "birthtime": "2018-08-15T03:51:40.881Z"
     },
     "/Users/chris/chris-davis.tech/src/pages/404.js absPath of file": {
@@ -1383,7 +1371,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "contentDigest": "47616b88f3178b2f93c173d0b7b1dd52",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/about.js\"",
@@ -1393,11 +1381,11 @@
       "absolutePath": "/Users/chris/chris-davis.tech/src/pages/about.js",
       "relativePath": "about.js",
       "extension": "js",
-      "size": 0,
-      "prettySize": "0 B",
-      "modifiedTime": "2018-09-23T01:53:54.475Z",
-      "accessTime": "2018-09-23T01:53:55.087Z",
-      "changeTime": "2018-09-23T01:53:54.475Z",
+      "size": 212,
+      "prettySize": "212 B",
+      "modifiedTime": "2018-10-30T12:30:03.470Z",
+      "accessTime": "2018-10-30T12:30:03.474Z",
+      "changeTime": "2018-10-30T12:30:03.470Z",
       "birthTime": "2018-09-23T01:53:54.475Z",
       "root": "/",
       "dir": "/Users/chris/chris-davis.tech/src/pages",
@@ -1411,16 +1399,16 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 8616457375,
-      "blocks": 0,
-      "atimeMs": 1537667635086.7,
-      "mtimeMs": 1537667634474.8965,
-      "ctimeMs": 1537667634474.8965,
+      "blocks": 8,
+      "atimeMs": 1540902603474.4,
+      "mtimeMs": 1540902603470.4175,
+      "ctimeMs": 1540902603470.4175,
       "birthtimeMs": 1537667634474.8965,
-      "atime": "2018-09-23T01:53:55.087Z",
-      "mtime": "2018-09-23T01:53:54.475Z",
-      "ctime": "2018-09-23T01:53:54.475Z",
+      "atime": "2018-10-30T12:30:03.474Z",
+      "mtime": "2018-10-30T12:30:03.470Z",
+      "ctime": "2018-10-30T12:30:03.470Z",
       "birthtime": "2018-09-23T01:53:54.475Z"
     },
     "/Users/chris/chris-davis.tech/src/pages/blogs.js absPath of file": {
@@ -1428,7 +1416,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "aa65c2d232506675b40ed0e516bbcf88",
+        "contentDigest": "12bbf40674035085d09f13f6832ce237",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/blogs.js\"",
@@ -1438,11 +1426,11 @@
       "absolutePath": "/Users/chris/chris-davis.tech/src/pages/blogs.js",
       "relativePath": "blogs.js",
       "extension": "js",
-      "size": 270,
-      "prettySize": "270 B",
-      "modifiedTime": "2018-09-23T03:45:39.382Z",
-      "accessTime": "2018-09-23T03:45:39.387Z",
-      "changeTime": "2018-09-23T03:45:39.382Z",
+      "size": 187,
+      "prettySize": "187 B",
+      "modifiedTime": "2018-10-30T12:30:24.151Z",
+      "accessTime": "2018-10-30T12:30:24.155Z",
+      "changeTime": "2018-10-30T12:30:24.151Z",
       "birthTime": "2018-08-15T03:51:40.882Z",
       "root": "/",
       "dir": "/Users/chris/chris-davis.tech/src/pages",
@@ -1456,16 +1444,16 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 8614184480,
       "blocks": 8,
-      "atimeMs": 1537674339386.8574,
-      "mtimeMs": 1537674339382.3157,
-      "ctimeMs": 1537674339382.3157,
+      "atimeMs": 1540902624155.284,
+      "mtimeMs": 1540902624151.121,
+      "ctimeMs": 1540902624151.121,
       "birthtimeMs": 1534305100881.934,
-      "atime": "2018-09-23T03:45:39.387Z",
-      "mtime": "2018-09-23T03:45:39.382Z",
-      "ctime": "2018-09-23T03:45:39.382Z",
+      "atime": "2018-10-30T12:30:24.155Z",
+      "mtime": "2018-10-30T12:30:24.151Z",
+      "ctime": "2018-10-30T12:30:24.151Z",
       "birthtime": "2018-08-15T03:51:40.882Z"
     },
     "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration absPath of file": {
@@ -1473,7 +1461,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9067412b7a9d8d9ba4c0c9bf966196d5",
+        "contentDigest": "6d7ac58ccdc8bfa9532fe65f5b58b231",
         "type": "Directory",
         "description": "Directory \"src/pages/08-16-2018-File_Frustration\"",
         "owner": "gatsby-source-filesystem"
@@ -1485,7 +1473,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-16T03:09:24.781Z",
-      "accessTime": "2018-09-24T11:43:11.393Z",
+      "accessTime": "2018-11-26T03:33:05.902Z",
       "changeTime": "2018-09-23T02:21:27.493Z",
       "birthTime": "2018-08-16T03:09:08.156Z",
       "root": "/",
@@ -1500,14 +1488,14 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 8614416426,
       "blocks": 0,
-      "atimeMs": 1537789391393.481,
+      "atimeMs": 1543203185901.8076,
       "mtimeMs": 1534388964781.3425,
       "ctimeMs": 1537669287493.201,
       "birthtimeMs": 1534388948156.4927,
-      "atime": "2018-09-24T11:43:11.393Z",
+      "atime": "2018-11-26T03:33:05.902Z",
       "mtime": "2018-08-16T03:09:24.781Z",
       "ctime": "2018-09-23T02:21:27.493Z",
       "birthtime": "2018-08-16T03:09:08.156Z"
@@ -1584,7 +1572,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f447e2c4560d671310e89be6327732b2",
+        "contentDigest": "6785efd2dbfb1e9d54b7049c4249f816",
         "type": "Directory",
         "description": "Directory \"src/pages/08-15-2018-Junior_Developer_Tales\"",
         "owner": "gatsby-source-filesystem"
@@ -1596,7 +1584,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-16T03:09:24.781Z",
-      "accessTime": "2018-09-24T11:43:11.393Z",
+      "accessTime": "2018-11-26T03:33:05.902Z",
       "changeTime": "2018-09-23T02:21:41.297Z",
       "birthTime": "2018-08-16T03:09:08.156Z",
       "root": "/",
@@ -1611,14 +1599,14 @@
       "uid": 501,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 8614385897,
       "blocks": 0,
-      "atimeMs": 1537789391393.4592,
+      "atimeMs": 1543203185901.8022,
       "mtimeMs": 1534388964781.3425,
       "ctimeMs": 1537669301296.9988,
       "birthtimeMs": 1534388948156.4927,
-      "atime": "2018-09-24T11:43:11.393Z",
+      "atime": "2018-11-26T03:33:05.902Z",
       "mtime": "2018-08-16T03:09:24.781Z",
       "ctime": "2018-09-23T02:21:41.297Z",
       "birthtime": "2018-08-16T03:09:08.156Z"
@@ -1706,7 +1694,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "09082e997bea52e8510738460ea054f4",
+        "contentDigest": "d20367d9f3345bb04eb4ab648fe892b1",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1727,7 +1715,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0d9ad149f574661c19c207285525c0da",
+        "contentDigest": "8fa87d20d47fddb5dc2e74eee39fd298",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1748,7 +1736,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "46f88c408ecae8cfd2cc6548859857fd",
+        "contentDigest": "16243dd3bcc5a120485d23550a70bc2b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1769,7 +1757,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eba1a51a5fcb6a601837ba9d01614aa0",
+        "contentDigest": "484abb44b1d68bb5bd87e0638bdce3d7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1790,7 +1778,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1fa7a8205784792a4226680a5148de75",
+        "contentDigest": "4f842f5c25afaf0d666182a93de158d5",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1811,7 +1799,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "18abc4d4c7613fb32b13704c995fe8fc",
+        "contentDigest": "66ce301792a40ebe686a928f9c855136",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1832,7 +1820,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1327a8e95f885580916404cf1c89ee32",
+        "contentDigest": "631680f62d6965924d71aade1d91b781",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1853,7 +1841,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f56f829574957202fff185fe91a0e3d9",
+        "contentDigest": "feb17ca2fe7572d8196c3ed02a9d0732",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1865,14 +1853,17 @@
   },
   "componentDataDependencies": {
     "nodes": {
-      "/Users/chris/chris-davis.tech/src/pages/08-16-2018-second/index.md absPath of file >>> MarkdownRemark": [
-        "/second-post"
-      ],
-      "/Users/chris/chris-davis.tech/src/pages/08-15-2018-firstblog/index.md absPath of file >>> MarkdownRemark": [
-        "/first-post"
-      ],
+      "/Users/chris/chris-davis.tech/src/pages/08-16-2018-second/index.md absPath of file >>> MarkdownRemark": [],
+      "/Users/chris/chris-davis.tech/src/pages/08-15-2018-firstblog/index.md absPath of file >>> MarkdownRemark": [],
       "Site": [
         "LAYOUT___index"
+      ],
+      "/Users/chris/chris-davis.tech/src/pages/08-16-2018-File_Frustration/index.md absPath of file >>> MarkdownRemark": [
+        "/",
+        "/second-post"
+      ],
+      "/Users/chris/chris-davis.tech/src/pages/08-15-2018-Junior_Developer_Tales/index.md absPath of file >>> MarkdownRemark": [
+        "/first-post"
       ]
     },
     "connections": {

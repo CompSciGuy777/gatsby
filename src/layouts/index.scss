@@ -623,3 +623,42 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.navigationRow {
+  width: 100%;
+  
+}
+
+nav {
+color: white;
+list-style-type: none;
+  ul {
+  
+    width: 90%;
+text-decoration: none;
+list-style-type: none;
+color: white;
+display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+    li{
+      margin: 0 10px;
+      padding: 5px 15px;
+      border: 2px solid white;
+      border-radius: 25%;
+      
+
+
+      a {
+        color: white;
+        text-decoration: none;
+
+      }
+
+    }
+
+    
+  }
+}
