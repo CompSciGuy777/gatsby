@@ -1,11 +1,26 @@
-import React from 'react'
+import React, {Component} from 'react'
 import Link from 'gatsby-link'
 
-const blogs = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-  </div>
-)
+class Blogs extends Component{
 
-export default blogs
+  constructor(props) {
+    super(props)
+    this.setState({
+      
+    })
+
+    return(
+  <div>
+    <  h1>Articles</h1>
+    <p>     Here I talk about my many adventures in the world of web development.</p>
+    
+  </div>
+    )
+
+
+
+
+  }
+}
+
+export default Blogs

@@ -1,2 +1,15 @@
 {
+    "workbench.colorTheme": "Material Theme Palenight",
+    "materialTheme.fixIconsRunning": false,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "emmet.includeLanguages": {
+
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": true,
+    "git.ignoreLimitWarning": true
 }

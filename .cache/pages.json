@@ -3,15 +3,15 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "second-post.json",
-        "path": "/second-post"
+        "jsonName": "first-post.json",
+        "path": "/first-post"
     },
     {
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "first-post.json",
-        "path": "/first-post"
+        "jsonName": "second-post.json",
+        "path": "/second-post"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
